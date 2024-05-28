@@ -9,8 +9,18 @@ import React from 'react';
 //   );
 //}
 
-const Greet = () => <h1>Hi Saranga</h1>
-export default Greet
+// const Greet = () =>{
+//     <h1>Hi Saranga</h1>
+// }
+// export default Greet
 
+const Greet = (props)=>{
+    return(
+        <div>
+            <h1> Hello {props.name}</h1>
+        </div>
+    );
+}
 
+export default Greet;
 //Functional Components -rfc
