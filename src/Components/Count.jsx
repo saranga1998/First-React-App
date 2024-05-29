@@ -10,18 +10,32 @@ class Count extends Component {
             
     }
 
+    // Add(){
+    //     this.setState(
+    //         {
+    //             count: this.state.count + 1
+    //         }
+    //     )
+    // }
+
+
     Add(){
-        this.setState(
-            {
-                count: this.state.count + 1
-            }
-        )
+        this.setState(preveState=>({
+            count: preveState.count + 1
+        }))
+    }
+
+    Sub(){
+        this.Add()
+        this.Add()
+        this.Add()
     }
   render() {
     return (
       <div>
         <h1>Count: {this.state.count}</h1>
-        <button onClick={() => this.Add()}>Add</button>
+        {/* <button onClick={() => this.Add()}>Add</button> First step*/}
+        <button onClick={() => this.Sub()}>Add</button>
       </div>
     )
   }
