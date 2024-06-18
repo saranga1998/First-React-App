@@ -39,6 +39,9 @@ export class Form extends Component {
     const {username,topic,comments} = this.state
     return (
       <form onSubmit={this.handleSubmit}>
+      <div>
+            <h1>Form Component</h1>
+      </div>
         <div>
             <label>Username :</label>
             <input type="text" value={username} onChange={this.handleusernameChange}/>
