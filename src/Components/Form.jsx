@@ -40,7 +40,7 @@ export class Form extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
       <div>
-            <h1>Form Component</h1>
+            <h1>My Form Component </h1>
       </div>
         <div>
             <label>Username :</label>
