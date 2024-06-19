@@ -12,6 +12,7 @@ import UserGretting from './Components/UserGretting'
 import NameList from './Components/NameList'
 import PersonList from './Components/PersonList'
 import Form from './Components/Form'
+import LifeCycleA from './Components/LifeCycleA'
 
 function App() {
   
@@ -32,7 +33,8 @@ function App() {
 
       {/* <NameList/> */}
       {/* <PersonList/> */}
-      <Form/>
+      {/* <Form/> */}
+      <LifeCycleA/>
     </div>
   )
 }
