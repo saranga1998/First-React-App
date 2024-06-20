@@ -16,6 +16,7 @@ import LifeCycleA from './Components/LifeCycleA'
 import FragmentDemo from './Components/FragmentDemo'
 import Table from './Components/TableA'
 import TableA from './Components/TableA'
+import ParentAComponent from './Components/ParentAComponent'
 
 function App() {
   
@@ -40,7 +41,9 @@ function App() {
       {/* <LifeCycleA/> */}
 
       {/* <FragmentDemo/> */}
-      <TableA/>
+      {/* <TableA/> */}
+      {/* <PureComponent/> */}
+      <ParentAComponent/>
     </div>
   )
 }
