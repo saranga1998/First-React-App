@@ -13,6 +13,9 @@ import NameList from './Components/NameList'
 import PersonList from './Components/PersonList'
 import Form from './Components/Form'
 import LifeCycleA from './Components/LifeCycleA'
+import FragmentDemo from './Components/FragmentDemo'
+import Table from './Components/TableA'
+import TableA from './Components/TableA'
 
 function App() {
   
@@ -34,7 +37,10 @@ function App() {
       {/* <NameList/> */}
       {/* <PersonList/> */}
       {/* <Form/> */}
-      <LifeCycleA/>
+      {/* <LifeCycleA/> */}
+
+      {/* <FragmentDemo/> */}
+      <TableA/>
     </div>
   )
 }
