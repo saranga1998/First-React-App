@@ -17,6 +17,8 @@ import FragmentDemo from './Components/FragmentDemo'
 import Table from './Components/TableA'
 import TableA from './Components/TableA'
 import ParentAComponent from './Components/ParentAComponent'
+import RefsDemo from './Components/RefsDemo'
+import FocusInput from './Components/FocusInput'
 
 function App() {
   
@@ -43,7 +45,9 @@ function App() {
       {/* <FragmentDemo/> */}
       {/* <TableA/> */}
       {/* <PureComponent/> */}
-      <ParentAComponent/>
+      {/* <ParentAComponent/> */}
+      {/* <RefsDemo/> */}
+      <FocusInput/>
     </div>
   )
 }
