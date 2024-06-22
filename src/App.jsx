@@ -20,6 +20,7 @@ import ParentAComponent from './Components/ParentAComponent'
 import RefsDemo from './Components/RefsDemo'
 import FocusInput from './Components/FocusInput'
 import FRParentInput from './Components/FRParentInput'
+import PortalDemo from './Components/PortalDemo'
 
 function App() {
   
@@ -49,7 +50,8 @@ function App() {
       {/* <ParentAComponent/> */}
       {/* <RefsDemo/> */}
       {/* <FocusInput/> */}
-      <FRParentInput/>
+      {/* <FRParentInput/> */}
+      <PortalDemo/>
     </div>
   )
 }
