@@ -19,6 +19,7 @@ import TableA from './Components/TableA'
 import ParentAComponent from './Components/ParentAComponent'
 import RefsDemo from './Components/RefsDemo'
 import FocusInput from './Components/FocusInput'
+import FRParentInput from './Components/FRParentInput'
 
 function App() {
   
@@ -47,7 +48,8 @@ function App() {
       {/* <PureComponent/> */}
       {/* <ParentAComponent/> */}
       {/* <RefsDemo/> */}
-      <FocusInput/>
+      {/* <FocusInput/> */}
+      <FRParentInput/>
     </div>
   )
 }
