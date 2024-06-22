@@ -61,6 +61,9 @@ function App() {
       <ErrorBoundry>
         <Hero heroname="Batman"/>
       </ErrorBoundry>
+      <ErrorBoundry>
+        <Hero heroname="Superman"/>
+      </ErrorBoundry>
     </div>
   )
 }
