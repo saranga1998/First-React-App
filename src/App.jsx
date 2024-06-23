@@ -21,6 +21,10 @@ import RefsDemo from './Components/RefsDemo'
 import FocusInput from './Components/FocusInput'
 import FRParentInput from './Components/FRParentInput'
 import PortalDemo from './Components/PortalDemo'
+import Hero from './Components/Hero'
+import ErrorBoundry from './Components/ErrorBoundry'
+import ClickCounter from './Components/ClickCounter'
+import HoverCounter from './Components/HoverCounter'
 
 function App() {
   
@@ -51,7 +55,20 @@ function App() {
       {/* <RefsDemo/> */}
       {/* <FocusInput/> */}
       {/* <FRParentInput/> */}
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
+      {/* <Hero heroname="Batman"/> */}
+      {/* <ErrorBoundry>
+        <Hero heroname="Joker"/>
+      </ErrorBoundry>
+      <ErrorBoundry>
+        <Hero heroname="Batman"/>
+      </ErrorBoundry>
+      <ErrorBoundry>
+        <Hero heroname="Superman"/>
+      </ErrorBoundry> */}
+
+      <ClickCounter/>
+      <HoverCounter/>
     </div>
   )
 }
