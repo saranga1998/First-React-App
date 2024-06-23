@@ -23,6 +23,8 @@ import FRParentInput from './Components/FRParentInput'
 import PortalDemo from './Components/PortalDemo'
 import Hero from './Components/Hero'
 import ErrorBoundry from './Components/ErrorBoundry'
+import ClickCounter from './Components/ClickCounter'
+import HoverCounter from './Components/HoverCounter'
 
 function App() {
   
@@ -55,7 +57,7 @@ function App() {
       {/* <FRParentInput/> */}
       {/* <PortalDemo/> */}
       {/* <Hero heroname="Batman"/> */}
-      <ErrorBoundry>
+      {/* <ErrorBoundry>
         <Hero heroname="Joker"/>
       </ErrorBoundry>
       <ErrorBoundry>
@@ -63,7 +65,10 @@ function App() {
       </ErrorBoundry>
       <ErrorBoundry>
         <Hero heroname="Superman"/>
-      </ErrorBoundry>
+      </ErrorBoundry> */}
+
+      <ClickCounter/>
+      <HoverCounter/>
     </div>
   )
 }
