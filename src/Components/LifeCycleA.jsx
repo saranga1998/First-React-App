@@ -30,10 +30,10 @@ export class LifeCycleA extends Component {
       return null
      }
 
-    componentDidMount(){
-      console.log('LifeCycleA componentDidMount')
+    // componentDidMount(){
+    //   console.log('LifeCycleA componentDidMount')
       
-     }
+    //  }
 
     changeState =() =>{
       this.state({
